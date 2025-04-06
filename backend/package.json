@@ -4,6 +4,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
+    "build": "npm rebuild bcrypt && npm install",
     "server": "nodemon server.js"
   },
   "author": "",
